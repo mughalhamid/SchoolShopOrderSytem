@@ -35,10 +35,10 @@ This project demonstrates clean architecture principles with **EF Core** and **C
 ### Setup
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/school-canteen-api.git
+git clone https://github.com/mughalhamid/SchoolShopOrderSytem.git
 
 # Navigate into the project folder
-cd school-canteen-api
+cd SchoolShopOrderSytem
 
 # Run the project
 dotnet run
