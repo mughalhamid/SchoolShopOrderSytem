@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/SchoolShopOrderSystem/bin/Debug/net8.0
+/SchoolShopOrderSystem/obj
+/SchoolShopOrderSystem.Tests/bin/Debug/net8.0
+/SchoolShopOrderSystem.Tests/obj
