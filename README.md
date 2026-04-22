@@ -1,15 +1,44 @@
-Clone this Project.
-Make sure .net 8 is installed on your computer
-Run the Project, for the first time it will create the database.
+# 🍽️ School Canteen Shop System API
 
-On running the project you will get to see the schema at the bottom and the APIs on the top.
+A lightweight **.NET 8 Minimal API** project designed to manage a school canteen’s order workflow.  
+This project demonstrates clean architecture principles with **EF Core** and **C#**, focusing on simplicity and real-world constraints such as wallet balance, stock availability, cut-off times, and allergy checks.
 
-This Project is created for School Canteen Shop System, This is a small API project which aims to have 2 
-major functionalities Request Order and Get Order Details. .Net Minimal Apis are used for this Project as
-these are very suitable for short projects.
+---
 
-Request Order can cancel the order if the WalletBalance is not enough, DailyStock is less than required,
-Cateen Cut-off Time is less than the fulfiltime or if student has allergy with ingredients of the
-item.
+## 🚀 Features
 
-Stack Used for this Project is .Net 8, EF Core, C#, Minimal REST Apis
+- **Request Order**  
+  - Validates wallet balance  
+  - Checks daily stock availability  
+  - Enforces canteen cut-off time  
+  - Allergy-aware ordering  
+
+- **Get Order Details**  
+  - Retrieve order information with schema and API endpoints exposed at runtime  
+
+---
+
+## 🛠️ Tech Stack
+
+- [.NET 8](https://dotnet.microsoft.com/)  
+- [C#](https://learn.microsoft.com/en-us/dotnet/csharp/)  
+- [Entity Framework Core](https://learn.microsoft.com/en-us/ef/core/)  
+- Minimal REST APIs  
+
+---
+
+## 📦 Getting Started
+
+### Prerequisites
+- Install **.NET 8 SDK** on your machine
+
+### Setup
+```bash
+# Clone the repository
+git clone https://github.com/your-username/school-canteen-api.git
+
+# Navigate into the project folder
+cd school-canteen-api
+
+# Run the project
+dotnet run
